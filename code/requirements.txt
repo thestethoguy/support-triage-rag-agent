@@ -1,0 +1,27 @@
+# ── Core LLM & LangChain stack ─────────────────────────────────────────────
+langchain==0.3.25
+langchain-google-genai==2.1.4
+langchain-community==0.3.23
+langchain-qdrant==0.2.0
+
+# ── Local embeddings (no API key required) ──────────────────────────────────
+langchain-huggingface
+sentence-transformers
+
+# ── Local vector store (pure-Python, no C++ build required) ────────────────
+qdrant-client==1.12.1
+
+# ── Data processing ─────────────────────────────────────────────────────────
+pandas==2.2.3
+
+# ── Environment / secrets ───────────────────────────────────────────────────
+python-dotenv==1.1.0
+
+# ── Markdown parsing (corpus docs are .md files) ───────────────────────────
+markdown==3.7
+
+# ── Structured output / validation ─────────────────────────────────────────
+pydantic==2.11.4
+
+# ── Utilities ───────────────────────────────────────────────────────────────
+tqdm==4.67.1

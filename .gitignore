@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+qdrant_db/
+qdrant_db_v2/
+qdrant_db_v3/
+support_tickets/output.csv
+log.txt
